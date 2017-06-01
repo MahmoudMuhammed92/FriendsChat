@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_users"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_background"
+    tools:context="com.example.sahil.friendschat.ListUsersActivity">
+
+
+    <ListView
+        android:layout_marginBottom="40dp"
+        android:id="@+id/listusers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <Button
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/colorAccent"
+        android:background="#CE93D8"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button_create_chat"
+        android:text="CREATE CHAT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

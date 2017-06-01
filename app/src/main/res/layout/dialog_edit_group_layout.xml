@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter the New Group Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+
+        android:hint="Name..."
+        android:id="@+id/edt_new_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <requestFocus/>
+    </EditText>
+
+</LinearLayout>

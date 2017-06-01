@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/chat_groupt_edit_name"
+        android:icon="@drawable/ic_edit"
+        android:title="Edit Group Name"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/chat_groupt_add_user"
+        android:icon="@drawable/ic_add_user"
+        android:title="Add User"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/chat_groupt_remove_user"
+        android:icon="@drawable/ic_remove_user"
+        android:title="Remove USer"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

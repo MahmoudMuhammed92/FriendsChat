@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_background"
+    android:orientation="vertical"
+    tools:context="com.example.sahil.friendschat.SignUpActivity">
+
+    <LinearLayout
+        android:padding="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group_login"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:textColorHint="@android:color/white"
+            android:layout_below="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_username"
+            >
+
+            <EditText
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/signup_edit_login"
+                android:hint="Enter your Username"
+                android:padding="5dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:textColorHint="@android:color/white"
+            android:layout_below="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_fullname"
+            >
+
+            <EditText
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/signup_edit_fullname"
+                android:hint="Enter your fullname"
+                android:padding="5dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:textColorHint="@android:color/white"
+            android:layout_below="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_password">
+
+            <EditText
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/signup_edit_password"
+                android:hint="Enter your Password"
+                android:inputType="textPassword"
+                android:padding="5dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="15dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Sign UP"
+            android:textColor="#FFFFFF"
+            android:background="#CE93D8"
+            android:id="@+id/signup_btn_signup"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+        <Button
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            android:background="#CE93D8"
+            android:id="@+id/signup_btn_cancel"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+    </LinearLayout>
+
+</LinearLayout>

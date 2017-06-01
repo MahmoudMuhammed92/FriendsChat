@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="@drawable/splash_img"
+    android:id="@+id/lin_lay"
+    android:orientation="vertical"
+
+    >
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="175dp"
+        android:layout_width="327dp"
+        android:layout_height="123dp"
+        android:id="@+id/splash"
+        android:background="@drawable/chat_logo"/>
+
+    <ProgressBar
+
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar" />
+
+</LinearLayout>
